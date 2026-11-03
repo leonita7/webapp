@@ -6,8 +6,6 @@ Nutzerinnen und Nutzer können eigene Artikel einstellen, nach benötigten Mater
 
 Die Plattform richtet sich an zwei Nutzergruppen: Studierende, die Lernmaterialien anbieten möchten, und Studierende, die bestimmte Materialien suchen. Durch die Beschränkung auf die HWR Berlin entsteht eine hochschulinterne Community, die den Austausch unter Studierenden fördert und zur Wiederverwendung von Ressourcen beiträgt.
 
-## Screenshot
-[Hier kommt später ein Screenshot eurer fertigen Anwendung hin.]
 
 ## Dokumentation
 - [Dokumentation](docs/README.md)

@@ -10,5 +10,6 @@ Ich studiere Wirtschaftsinformatik an der HWR Berlin. Besonders interessieren mi
 - Den gesamten Entwicklungsprozess einer Website kennenlernen.
 - Meine analytischen und kreativen Fähigkeiten miteinander verbinden.
 
+
 ## Meine Aufgaben
-Ich beschäftige mich mit der Ausarbeitung von Projektinhalten und der Gestaltung verschiedener Bereiche der Website. Außerdem unterstütze ich die Entwicklung und Strukturierung der Inhalte und bringe eigene Ideen zur Verbesserung des Projekts ein.
+Ich beschäftige mich mit der Ausarbeitung von Projektinhalten und der Gestaltung verschiedener Bereiche der Website. Außerdem unterstütze ich die Entwicklung und Strukturierung der Inhalte und bringe eigene Ideen zur Verbesserung des Projekts ein. 

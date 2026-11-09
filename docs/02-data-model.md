@@ -1,56 +1,65 @@
 [← Documentation Home](README.md)
 
-# Data Model
+# Datenmodell
 
-## Overview
+## Überblick
 
-[Briefly describe what data your app stores and how the data model supports the platform's core functionality. In particular, explain how the two user groups and their interactions are represented.]
+Unsere Plattform verbindet Studierende der HWR Berlin, die gebrauchte Lernmaterialien anbieten oder suchen möchten.
 
-## Entity-Relationship Diagram
+Das Datenmodell besteht aus drei zentralen Entitäten: **User (Benutzer), Listing (Anzeige) und Request (Anfrage)**.
 
-[Visualize your app's data model using an Entity-Relationship Diagram (ERD). Include the main entities, their relevant attributes, primary and foreign keys, and relationship cardinalities (e.g., one-to-many or many-to-many).
+Die Entität User speichert die Informationen der registrierten Studierenden. Die Entität Listing repräsentiert angebotene Lernmaterialien wie Bücher oder Taschenrechner, die verschenkt oder getauscht werden können. Die Entität Request stellt Anfragen von Studierenden dar, die an einer bestimmten Anzeige interessiert sind.
 
-You can use [Mermaid](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) to create the diagram directly in Markdown, as illustrated by the following example. Replace this example with your own data model.]
+Ein Benutzer kann sowohl als Anbieter (Supply Side) als auch als Suchender (Demand Side) auftreten.
+
+## Entity-Relationship-Diagramm
 
 ```mermaid
 erDiagram
     direction TB
 
-    User ||--o{ Listing : publishes
-    User ||--o{ Request : submits
-    Listing ||--o{ Request : receives
+    User ||--o{ Listing : erstellt
+    User ||--o{ Request : sendet
+    Listing ||--o{ Request : erhaelt
 
     User {
         int id PK
+        string name
         string email UK
+        string password_hash
     }
 
     Listing {
         int id PK
-        int publisher_id FK
+        int user_id FK
         string title
         string description
+        string category
+        string exchange_type
+        string status
     }
 
     Request {
         int id PK
         int listing_id FK
         int requester_id FK
+        string message
         string status
     }
-
 ```
 
-## Entities and Relationships
+## Entitäten und Beziehungen
 
-[Briefly explain the purpose of the main entities and how they relate to each other. Focus on aspects that aren't immediately obvious from the diagram. In particular, explain how your data model represents the two user groups, the offered products or services, and the interactions between supply and demand.
+Die Entität User repräsentiert die registrierten Studierenden der HWR Berlin. Jeder Benutzer kann eigene Anzeigen erstellen und Anfragen zu Lernmaterialien anderer Studierender senden.
 
-Do not simply repeat attribute definitions or relationship cardinalities already visible in the ERD.
+Die Entität Listing speichert Informationen über verfügbare Lernmaterialien. Jede Anzeige gehört zu einem Benutzer und beschreibt einen angebotenen Gegenstand, dessen Kategorie sowie die Art des Angebots – ob kostenlos abgegeben oder gegen einen anderen Gegenstand getauscht werden soll.
 
-## Related Design Decisions
+Die Entität Request verbindet einen interessierten Studierenden mit einer bestimmten Anzeige. Dadurch können Anbieter die Anfragen anderer Studierender verwalten.
 
-[Link to the Design Decisions that explain important choices in your data model, such as the representation of user roles, relationships between entities, or data integrity constraints. Keep the rationale in those documents rather than duplicating it here. Use relative links for referencing, like so:
+Zusammen ermöglichen diese drei Entitäten den Austausch von Lernmaterialien zwischen den beiden Nutzergruppen.
 
-- [01: How to access the database - SQL or SQLAlchemy](design-decisions/dd-01.md)
+## Zugehörige Designentscheidungen
 
-[**Important:** The documented data model, including related Design Decisions, must reflect your app's actual implementation.]
+Wichtige Entscheidungen zur Datenbankstruktur, zu den Benutzerrollen und zu den Beziehungen zwischen den Entitäten werden in separaten Design-Decision-Dokumenten festgehalten und hier verlinkt.
+
+(Muss noch überarbeitet werden nach der Implementierung)

@@ -1,10 +1,10 @@
 [← Documentation Home](README.md)
 
-# Value Proposition – HWR Share & Swap
+# Value Proposition – HWR Share 
 
 ## Zielgruppen und ihre Probleme
 
-HWR Share & Swap ist eine geplante Plattform für Studierende der HWR Berlin. Sie soll es ermöglichen, Studienmaterialien kostenlos zu tauschen, zu teilen oder zu verschenken.
+HWR Share ist eine geplante Plattform für Studierende der HWR Berlin. Sie soll es ermöglichen, Studienmaterialien kostenlos zu tauschen, zu teilen oder zu verschenken.
 
 Die Plattform richtet sich an zwei Zielgruppen: Studierende, die Lernmaterialien benötigen, und Studierende, die Materialien anbieten möchten.
 
@@ -24,7 +24,7 @@ Oft wissen sie jedoch nicht, wer diese Materialien gebrauchen könnte oder wie s
 
 ## Unsere Plattformlösung
 
-HWR Share & Swap soll Studierende miteinander verbinden, die Lernmaterialien suchen oder anbieten möchten.
+HWR Share soll Studierende miteinander verbinden, die Lernmaterialien suchen oder anbieten möchten.
 
 Über die Plattform sollen Materialien kostenlos getauscht, geteilt oder verschenkt werden können. Kaufen und Verkaufen sind nicht vorgesehen.
 
@@ -52,7 +52,7 @@ Die folgenden Abläufe beschreiben, wie die Plattform später funktionieren soll
 
 ### Happy Path der Nachfrageseite
 
-1. Eine studierende Person öffnet HWR Share & Swap.
+1. Eine studierende Person öffnet HWR Share.
 2. Sie durchsucht die verfügbaren Lernmaterialien.
 3. Sie findet ein interessantes Angebot.
 4. Sie öffnet die Detailansicht des Materials.
@@ -62,7 +62,7 @@ Die folgenden Abläufe beschreiben, wie die Plattform später funktionieren soll
 
 ### Happy Path der Angebotsseite
 
-1. Eine studierende Person öffnet HWR Share & Swap.
+1. Eine studierende Person öffnet HWR Share.
 2. Sie entscheidet sich, ein nicht mehr benötigtes Lernmaterial anzubieten.
 3. Sie erstellt ein Angebot mit einer Beschreibung des Materials.
 4. Das Angebot wird für andere Studierende sichtbar.
@@ -74,7 +74,7 @@ Die folgenden Abläufe beschreiben, wie die Plattform später funktionieren soll
 
 ## Initial Target Scope – Geplanter Funktionsumfang
 
-Die UI-Skizzen zeigen, wie wir uns den Aufbau und die Bedienung von HWR Share & Swap vorstellen.
+Die UI-Skizzen zeigen, wie wir uns den Aufbau und die Bedienung von HWR Share vorstellen.
 
 Für die Plattform sind zunächst folgende Bildschirme geplant:
 

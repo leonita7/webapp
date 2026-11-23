@@ -1,6 +1,6 @@
 [← Product Discovery](README.md)
 
-#Design Challenge
+##Design Challenge
 
 Wie können wir Studierenden der HWR Berlin dabei helfen, Lernmaterialien einfach zu finden, zu erhalten und mit anderen Studierenden zu teilen, damit sie sich gegenseitig beim Lernen unterstützen können, ohne dass unnötige Kosten oder Hürden entstehen?
 Ausgangsmaterial

@@ -1,13 +1,8 @@
 [← Product Discovery](README.md)
 
-# Design Challenge
+Design Challenge
+Wie können wir Studierenden der HWR Berlin dabei helfen, Lernmaterialien einfach zu finden, zu erhalten und mit anderen Studierenden zu teilen, damit sie sich gegenseitig beim Lernen unterstützen können, ohne dass unnötige Kosten oder Hürden entstehen?
+Ausgangsmaterial
+Unser Projekt beschäftigt sich mit den Schwierigkeiten, die Studierende bei der Suche nach Lernmaterialien oder geeigneten Unterlagen für ihre Kurse haben können. Manche Studierende besitzen Materialien, die sie nicht mehr benötigen, während andere genau nach solchen Materialien suchen.
+HWR Share soll Studierende, die Lernmaterialien teilen möchten, mit Studierenden verbinden, die diese Materialien benötigen. Dadurch soll das Teilen einfacher werden und die Zusammenarbeit innerhalb der Studierendengemeinschaft gefördert werden.
 
-[State the Design Challenge you eventually tackled, ideally as "How might we help ..." question.]
-
----
-
-## [Raw Material]
-
-[List / link / paste any material that you created or referenced while working on the **Design Challenge** definition.
-
-Ideally, put any material that you created or collected in the folder `📁 docs/product-discovery/material/01-dc/` (e.g., a scribble as .png image file), and link it on this page.]
